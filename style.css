@@ -1,0 +1,16 @@
+#topbar{
+    display: flex;
+    text-align: center;
+}
+.row{
+    display: flex;
+    width: auto;
+}
+.col1{
+    width: 50%;
+    position: relative;
+}
+.col2{
+    width: 50%;
+    position: relative;
+}
