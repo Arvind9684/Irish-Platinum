@@ -1,11 +1,37 @@
-#topbar{
+#topbar {
     display: flex;
     text-align: center;
     justify-content: center;
 }
-.phone {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.phone, .mail, .whatsapp{
     padding: 10px;
 }
-.mail{
-    padding: 10px;
+
+.container {
+    padding: 30px 30px;
+}
+
+.row {
+    padding: 30px 30px;
+}
+
+.callToAction {
+    background-image: url("img/irish\ platinum\ img5.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5)
 }
