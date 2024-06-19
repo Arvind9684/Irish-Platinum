@@ -38,10 +38,8 @@ p {
 }
 
 .analytics{
-    background-image: url("img/irish\ platinum\ img5.jpeg");
+    background-image: url("img/irish\ platinum\ img7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 50px;
 }
