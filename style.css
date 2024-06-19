@@ -1,16 +1,11 @@
 #topbar{
     display: flex;
     text-align: center;
+    justify-content: center;
 }
-.row{
-    display: flex;
-    width: auto;
+.phone {
+    padding: 10px;
 }
-.col1{
-    width: 50%;
-    position: relative;
-}
-.col2{
-    width: 50%;
-    position: relative;
+.mail{
+    padding: 10px;
 }
