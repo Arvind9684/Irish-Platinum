@@ -1,0 +1,306 @@
+#topbar {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #B71C1C;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body,
+nav,
+ul,
+li,
+#topbar {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #102939;
+}
+
+.navbar {
+  background-color: #DCE3E7;
+}
+
+nav .nav-item {
+  color: black;
+  font-weight: 500;
+}
+
+
+.navbar .megamenu {
+  padding: 1rem;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
+
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 10px;
+  }
+}
+
+.phone,
+.mail,
+.whatsapp {
+  padding: 10px;
+}
+
+.container {
+  padding: 30px 30px;
+}
+
+.container-fluid {
+  padding: 0% !important;
+}
+
+.row {
+  padding: 30px 30px;
+  --bs-gutter-x: 0% !important;
+}
+
+.skyblue {
+  background-color: #E9EFF2;
+}
+
+.featuresCall {
+  background-image: url("../img/irish\ platinum\ img5.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+}
+.featuresCall .card{
+ margin-right: 20px;
+}
+
+.top-features {
+  background-image: url("../img/irish\ platinum\ img7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.analytics {
+  background-image: url("../img/irish\ platinum\ img7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.row-afterNumber {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.features-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-top {
+  width: 250px;
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 1px gray;
+  margin: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+
+}
+.features-top img:hover{
+  transform: scale(1.1);
+}
+
+.footer-list {
+  list-style-type: none;
+  text-indent: 0%;
+  padding-left: 0px;
+
+}
+
+.footer-main,
+.footerbar {
+  background-image: url("../img/irish\ platinum\ img7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+  background-blend-mode: overlay;
+  background-color: rgb(16, 41, 57, .9);
+  color: white;
+}
+.slider-text {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+}
+
+.video-wrap {
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* iframe{
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 2px black;
+} */
+
+
+.afterslide-video {
+  background-image: url('../img/irish\ platinum\ img7.jpg');
+}
+
+.newsletter {
+  position: relative;
+  width: 200px;
+  padding: 8px;
+  font-family: jost;
+  border: 2px solid #B71C1C;
+}
+
+.newsletter-button {
+  position: absolute;
+  padding: 8px;
+  color: #fff;
+  font-family: jost;
+  background-color: #B71C1C;
+  border: 2px solid #B71C1C;
+  font-weight: bold;
+  z-index: 10;
+
+}
+
+.specifications {
+  background-image: url("../img/irish\ platinum\ img7.jpg");
+
+}
+.price-list-section{
+  background-image: url("../img/irish\ platinum\ img7.jpg");
+
+}
+.price-list {
+  border: 2px solid #B71C1C;
+  position:relative;
+  display:inline-block;
+  text-align:center;
+}
+
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /* Default to hidden */
+  display: none;
+
+  /* Overlay entire screen */
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  /* A bit of padding around image */
+  padding: 1em;
+
+  /* Translucent background */
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
+  display: block;
+}
+
+.lightbox span {
+  /* Full width and height */
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  /* Size and position background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.gallery {
+  margin: 10px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img{
+  width: 200px;
+  padding: 5px;
+}
+.gallery img:hover{
+  transform: scale(1.1);
+}
+
+.price-list img{
+  filter: blur(4px);
+}
+.price-list button{
+  background-color: #B71C1C;
+  color: white;
+  border-radius: 50px;
+  padding: 5px 10px 5px 10px;
+  border: 3px solid #B71C1C;
+  position:absolute;
+  bottom:43%;
+  right: 36%;
+}
