@@ -1,3 +1,8 @@
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
 #topbar {
   display: flex;
   text-align: center;
@@ -35,6 +40,9 @@ h6 {
 
 .navbar {
   background-color: #DCE3E7;
+  
+  border-bottom: 1px solid white;
+
 }
 
 nav .nav-item {
@@ -93,6 +101,7 @@ nav .nav-item {
 .row {
   padding: 30px 30px;
   --bs-gutter-x: 0% !important;
+  margin: 0% !important;
 }
 
 .skyblue {
@@ -303,4 +312,40 @@ nav .nav-item {
   position:absolute;
   bottom:43%;
   right: 36%;
+}
+
+.slider-content{
+  background-color: #DCE3E7;
+  font-family: jost;
+}
+
+.form-content{
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px #ddd;
+}
+#formdiv .btn {
+  background-color: #B71C1C;
+  color: #fff;
+}
+
+.footer-map{
+  background-image: url("../img/irish\ platinum\ img7.jpg");
+}
+
+.map-text{
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.map-text li{
+  list-style-type: none;
+}
+.location-map{
+  border: 2px solid #B71C1C;
+  border-radius: 15px;
+}
+iframe{
+  border-radius: 15px;
 }

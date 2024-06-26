@@ -17,16 +17,23 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
   <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <script src="js\script.js"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Optional: Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+
+
 </head>
+<!-- top bar starts here -->
 
 <body>
   <div id="topbar">
     <div class="phone">
-      <i class="fa-solid fa-phone"></i>
       <a href="tel:+917835005003" style="text-decoration: none;color: white;">📱 +91 7835005003</a>
     </div>
     <div class="mail">
-      <i class="fa-solid fa-email"></i>
       <a href="mailto:property.sale@gmail.com" style="text-decoration: none;color: white;">📧
         property.sale@gmail.com</a>
     </div>
@@ -35,6 +42,9 @@
       <a href="https://wa.me/7835005003/" style="text-decoration: none;color: white;">+91 7835005003</a>
     </div>
   </div>
+  <!-- top bar ends here -->
+
+  <!-- Navbar start here -->
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid px-5">
       <a class="navbar-brand" href="#"><img
@@ -61,19 +71,19 @@
               PROJECT DETAILS
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Concept</a></li>
-              <li><a class="dropdown-item" href="#">Layout</a></li>
-              <li><a class="dropdown-item" href="#">Basic Features</a></li>
-              <li><a class="dropdown-item" href="#">Tower Clusters</a></li>
-              <li><a class="dropdown-item" href="#">Facilities</a></li>
-              <li><a class="dropdown-item" href="#">Luxury Features</a></li>
-              <li><a class="dropdown-item" href="#">Mivan Construction</a></li>
-              <li><a class="dropdown-item" href="#">Elevated Podium</a></li>
-              <li><a class="dropdown-item" href="#">Sports Facilities</a></li>
-              <li><a class="dropdown-item" href="#">Club House</a></li>
-              <li><a class="dropdown-item" href="#">Parking</a></li>
+              <li><a class="dropdown-item" href="#concept">Concept</a></li>
+              <li><a class="dropdown-item" href="#layout">Layout</a></li>
+              <li><a class="dropdown-item" href="#basic-features">Basic Features</a></li>
+              <li><a class="dropdown-item" href="#tower-clusters">Tower Clusters</a></li>
+              <li><a class="dropdown-item" href="#facilities">Facilities</a></li>
+              <li><a class="dropdown-item" href="#luxury-features">Luxury Features</a></li>
+              <li><a class="dropdown-item" href="#mivan-construction">Mivan Construction</a></li>
+              <li><a class="dropdown-item" href="#elevated-podium">Elevated Podium</a></li>
+              <li><a class="dropdown-item" href="#sports-facilities">Sports Facilities</a></li>
+              <li><a class="dropdown-item" href="#club-house">Club House</a></li>
+              <li><a class="dropdown-item" href="#parking">Parking</a></li>
               <li><a class="dropdown-item" href="#">Safety & Security</a></li>
-              <li><a class="dropdown-item" href="#">Price Range[1.18 cr - 2.8 cr]</a></li>
+              <li><a class="dropdown-item" href="#price-range">Price Range[1.18 cr - 2.8 cr]</a></li>
               <li><a class="dropdown-item" href="#">Possession - Jan 2029</a></li>
             </ul>
           </li>
@@ -251,68 +261,99 @@
       </div>
     </div>
   </nav>
+  <!-- Navbar ends here -->
 
 
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="img/irish platinum slider1.png" alt="First slide">
-        <div class="form-content">
-          <h1 class="slider-text">Form Content</h1>
+  <!-- demo -->
+  <div class="container-fluid">
+    <div class="slider-content">
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <!-- Form start here -->
+          <div class="form-content">
+            <form action="#" method="#" id="forms">
+              <div id="formdiv">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                  <input type="tel" class="form-control" id="contact" placeholder="Contact number" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email (Optional)">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" style="width: 100%; height: 150px; border-radius: 4px;"
+                    placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/967677527?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="irish platinum greater noida west"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
         </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/irish platinum slider2.png" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/irish platinum slider3.png" alt="Third slide">
-      </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
 
-  <!-- video start Here -->
-  <!-- <div class="container-fluid">
-    <div class="afterslide-video">
-      <div class="container">
-        <div class="video-wrap">
-          <iframe width="890px" height="500px" src="https://www.youtube.com/embed/gnlpobPvjuY?si=zerqqYdabO1UejtS"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- video ends Here -->
+
+
+
 
   <!-- Numbers Start Here -->
+
+
   <div class="container-fluid">
     <div class="analytics">
       <div class="row">
         <div class="col-lg-4 col-md-12">
           <div class="card-numbers bg-white py-5 m-2">
-            <h1 style="text-align: center;">5 ACRES Land</h1>
+            <!-- <h1 style="text-align: center;">5 ACRES Land</h1>
+            <h5 style="text-align: center;">with 85% Open & Green Area</h5> -->
+            <h1 style="text-align: center;">
+              <span id="acresvalue"></span> ACRES Land
+            </h1>
             <h5 style="text-align: center;">with 85% Open & Green Area</h5>
           </div>
         </div>
         <div class="col-lg-4 col-md-12">
           <div class="card-numbers bg-white py-5 m-2">
-            <h1 style="text-align: center;">4 TOWERS</h1>
+            <!-- <h1 style="text-align: center;">4 TOWERS</h1>
+            <h5 style="text-align: center;">of 3BHK & 4BHK Clusters</h5> -->
+            <h1 style="text-align: center;">
+              <span id="towersvalue"></span> TOWERS
+            </h1>
             <h5 style="text-align: center;">of 3BHK & 4BHK Clusters</h5>
+
+
           </div>
         </div>
         <div class="col-lg-4 col-md-12">
           <div class="card-numbers bg-white py-5 m-2">
-            <h1 style="text-align: center;">570 Apartments</h1>
+            <!-- <h1 style="text-align: center;">570 Apartments</h1> -->
+            <h1 style="text-align: center;">
+              <span id="apartmentsvalue"></span> Apartments
+            </h1>
             <h5 style="text-align: center;">with min 2 car parkings for each</h5>
+
+            <!-- <script>
+              document.addEventListener("DOMContentLoaded", function () {
+                var apartmentsCount = 0; // Starting count
+                var targetCount = 570; // Target count
+                // Function to update apartmentsCount and display
+                function updateApartmentsCount() {
+                  if (apartmentsCount <= targetCount) {
+                    document.getElementById("apartmentsvalue").innerHTML = apartmentsCount;
+                    apartmentsCount++; // Increment count
+                  }
+                }
+                // Update count every 100 milliseconds (adjust as needed)
+                var interval = setInterval(updateApartmentsCount, 5);
+              });
+            </script> -->
           </div>
         </div>
       </div>
@@ -322,7 +363,7 @@
 
   <!-- Content-1 Start Here -->
   <div class="container-fluid py-5">
-    <div class="container">
+    <div class="container" id="concept">
       <div class="row justify-content-center d-flex flex-wrap">
         <div class="col-6">
           <img width="500px" src="img/irish_platinum001.png" alt="">
@@ -339,7 +380,7 @@
         </div>
       </div>
     </div>
-    <div class="container skyblue">
+    <div class="container skyblue" id="layout">
       <div class="row justify-content-center">
         <div class="col-6 px-4">
           <h2>Layout of the project</h2>
@@ -350,11 +391,11 @@
             the club house and swimming pool will be between the two towers of 3BHK.</p>
         </div>
         <div class="col-6">
-          <img width="500px" src="img/irish platinum img2.jpeg" alt="">
+          <img width="500px" src="img/irish platinum img2.jpeg" alt="Irish platinum">
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="basic-features">
       <div class="row justify-content-center">
         <div class="col-6">
           <img width="500px" src="img/irish_platinum006.png" alt="">
@@ -371,7 +412,7 @@
         </div>
       </div>
     </div>
-    <div class="container skyblue">
+    <div class="container skyblue" id="tower-cluster">
       <div class="row justify-content-center">
         <div class="col-6 px-4">
           <h2>Tower Clusters of Irish Platinum</h2>
@@ -384,7 +425,7 @@
             Gap between two tower clusters will be around 100 ft.</p>
         </div>
         <div class="col-6">
-          <img width="500px" src="img/irish platinum img3.jpeg" alt="">
+          <img width="500px" src="img/irish platinum img3.jpeg" alt="Irish platinum">
         </div>
       </div>
     </div>
@@ -392,26 +433,26 @@
   <!-- Content-1 ends Here -->
 
   <!-- Features start Here -->
-  <div class="container-fluid">
+  <div class="container-fluid" id="facilities">
     <div class="featuresCall">
       <div class="row">
         <div class="col-4">
           <div class="card align-items-center py-4">
-            <img width="100px" src="img/irish platinum icon1.png" alt="">
+            <img width="100px" src="img/irish platinum icon1.png" alt="Irish platinum">
             <h4>Flats</h4>
             <p>3BHK, 4BHK</p>
           </div>
         </div>
         <div class="col-4">
           <div class="card align-items-center py-4">
-            <img width="100px" src="img/irish platinum icon2.png" alt="">
+            <img width="100px" src="img/irish platinum icon2.png" alt="Irish platinum">
             <h4>Apartment</h4>
             <p>Commercials</p>
           </div>
         </div>
         <div class="col-4">
           <div class="card align-items-center py-4">
-            <img width="100px" src="img/irish platinum icon3.png" alt="">
+            <img width="100px" src="img/irish platinum icon3.png" alt="Irish platinum">
             <h4>Shop</h4>
             <p>Food Courts & Retails</p>
           </div>
@@ -423,7 +464,7 @@
 
 
   <!-- Large Content Start here -->
-  <div class="container">
+  <div class="container" id="luxury-features">
     <div class="row">
       <div class="col-12">
         <h2>Luxury Features</h2>
@@ -444,17 +485,21 @@
           <li>Ample car parking for visitors will be provided</li>
           <li>Best facilities will be provided in terms of sports and club area.</li>
         </ul>
-        <h2>Mivan Construction</h2>
+        <div id="mivan-construction">
+          <h2>Mivan Construction</h2>
         <p>The project will be constructed with MIVAN technology with specially ordered MIVNA shuttering that will be
           imported into India. MIVAN technology is the most popular construction technology and is highly favoured by
           the home buyers. This is evident with the fact that the going rate of the flats constructed by MIVAN
           technology in this area is 30-40% higher in cost that those constructed by other technology. Advantage of such
           construction is better quality, long lasting structure, lesser problems like seepage etc. Moreover, the
           construction looks smooth and well structured.</p>
-        <h2>Elevated Podium</h2>
+        </div>
+        <div id="elevated-podium">
+          <h2>Elevated Podium</h2>
         <p>Elevated podium in the project Irish Platinum will provide segregation of common area from the area earmarked
           for movement of vehicles. The podium will have car parking below and will have gardens on the top. It will
           help in achieving the following:</p>
+        </div>
         <ul>
           <li>Safety to family specially children</li>
           <li>Add on to beauty of the project</li>
@@ -462,10 +507,12 @@
           <li>Smooth movement of vehicles</li>
           <li>Easily accessible car parking</li>
         </ul>
-        <h2>Sports Facilities</h2>
+        <div id="sport-facilities">
+          <h2>Sports Facilities</h2>
         <p>Project will have both outdoor and Indoor sports facility. This is one of the few project in Greater Noida
           west that will have a squash court and two all weather swimming pools, the outdoor sports facilities are as
           under</p>
+        </div>
         <ul>
           <li>Jogging track</li>
           <li>Cricket practice area</li>
@@ -507,7 +554,10 @@
         </div>
         <div class="col-4">
           <div class="card-numbers bg-white py-5 m-2">
-            <h1 style="text-align: center;">570 Apartments</h1>
+            <!-- <h1 style="text-align: center;">570 Apartments</h1> -->
+            <h1 style="text-align: center;">
+              <span id="apartmentsvalue"></span> Apartments
+            </h1>
             <h5 style="text-align: center;">with min 2 car parkings for each</h5>
           </div>
         </div>
@@ -517,8 +567,8 @@
   <!-- Numbers ends Here -->
 
   <!-- ad section start here -->
-  <div class="container-fluid">
-    <div class="row p-0">
+  <!-- <div class="container-fluid">
+    <div class="row">
       <div class="col-6 p-5 mt-5">
         <h2>Lorem ipsum dolor sit amet.</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quas aut, ex similique nam delectus
@@ -531,10 +581,10 @@
         </p>
       </div>
       <div class="col-6">
-        <img width="100%" src="img/Property sale ad.png" alt="">
+        <img width="90%" src="img/Property sale ad.png" alt="">
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- ad section ends here -->
 
@@ -551,7 +601,7 @@
         <div class="features-row">
           <div class="features-top">
             <img width="100%" src="img/irish_platinum0016.png" alt="" style="border-radius: 5px;">
-            <h5 class="mt-4">Squash Court</h5>
+            <h5 class="mt-4">Badminton Court</h5>
             <p>Game Court, Jogging Track,<br>Gymnasium</p>
           </div>
           <div class="features-top">
@@ -586,7 +636,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-12">
             <a href="img/irish platinum Cluster Master plan.jpg" data-lightbox="floorplan">
-              <img src="img/irish platinum Cluster Master plan.jpg" width="98%" alt="">
+              <img src="img/irish platinum Cluster Master plan.jpg" width="98%" alt="Irish platinum">
             </a>
           </div>
           <div class="col-lg-4 col-md-12">
@@ -613,11 +663,16 @@
 
   <div class="container">
     <div class="gallery">
-      <a href="img/TYPE-1 3BHK + 3T + SQ SALEABLE AREA 1925 SQ.FT.jpg" data-lightbox="mygallery"><img src="img/TYPE-1 3BHK + 3T + SQ SALEABLE AREA 1925 SQ.FT.jpg" alt=""></a>
-      <a href="img/TYPE-2 3BHK + 3T SALEABLE AREA 1690 SQ.FT.jpg" data-lightbox="mygallery"><img src="img/TYPE-2 3BHK + 3T SALEABLE AREA 1690 SQ.FT.jpg" alt=""></a>
-      <a href="img/TYPE-3 3BHK + 3T SALEABLE AREA 1390 SQ.FT.jpg" data-lightbox="mygallery"><img src="img/TYPE-3 3BHK + 3T SALEABLE AREA 1390 SQ.FT.jpg" alt=""></a>
-      <a href="img/TYPE-1 4BHK + 4T + SQ SALEABLE AREA 2590 SQ.FT.jpg" data-lightbox="mygallery"><img src="img/TYPE-1 4BHK + 4T + SQ SALEABLE AREA 2590 SQ.FT.jpg" alt=""></a>
-      <a href="img/TYPE-2 4BHK + 4T SALEABLE AREA 2150 SQ.FT.jpg" data-lightbox="mygallery"><img src="img/TYPE-2 4BHK + 4T SALEABLE AREA 2150 SQ.FT.jpg" alt=""></a>
+      <a href="img/TYPE-1 3BHK + 3T + SQ SALEABLE AREA 1925 SQ.FT.jpg" data-lightbox="mygallery"><img
+          src="img/TYPE-1 3BHK + 3T + SQ SALEABLE AREA 1925 SQ.FT.jpg" alt=""></a>
+      <a href="img/TYPE-2 3BHK + 3T SALEABLE AREA 1690 SQ.FT.jpg" data-lightbox="mygallery"><img
+          src="img/TYPE-2 3BHK + 3T SALEABLE AREA 1690 SQ.FT.jpg" alt=""></a>
+      <a href="img/TYPE-3 3BHK + 3T SALEABLE AREA 1390 SQ.FT.jpg" data-lightbox="mygallery"><img
+          src="img/TYPE-3 3BHK + 3T SALEABLE AREA 1390 SQ.FT.jpg" alt=""></a>
+      <a href="img/TYPE-1 4BHK + 4T + SQ SALEABLE AREA 2590 SQ.FT.jpg" data-lightbox="mygallery"><img
+          src="img/TYPE-1 4BHK + 4T + SQ SALEABLE AREA 2590 SQ.FT.jpg" alt=""></a>
+      <a href="img/TYPE-2 4BHK + 4T SALEABLE AREA 2150 SQ.FT.jpg" data-lightbox="mygallery"><img
+          src="img/TYPE-2 4BHK + 4T SALEABLE AREA 2150 SQ.FT.jpg" alt=""></a>
     </div>
   </div>
 
@@ -628,23 +683,71 @@
 
   <div class="container-fluid">
     <div class="price-list-section">
-    <div class="container">
-      <h2 style="text-align: center;">Price list</h2>
-    <div class="row">
-      <div class="col-6">
-        <div class="price-list m-4">
-          <img src="img/irish platinum price list 1.jpg" width="100%" alt="irish platinum price list">
-          <button type="submit">See Price Plans</button>
+      <div class="container">
+        <h2 style="text-align: center;">Price list</h2>
+        <div class="row">
+          <div class="col-6">
+            <div class="price-list m-4">
+              <img src="img/irish platinum price list 1.jpg" width="100%" alt="irish platinum price list">
+              <!-- <button type="submit">See Price Plans</button> -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pricePlansModal">
+                See Price Plans
+              </button>
+
+              <style>
+                /* Optional: Custom CSS for additional styling */
+                .modal-dialog {
+                  max-width: 400px;
+                }
+              </style>
+              <div class="modal fade" id="pricePlansModal" tabindex="-1" role="dialog"
+                aria-labelledby="pricePlansModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="pricePlansModalLabel">Price Plans</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <!-- Form inside modal body -->
+                      <form action="#" method="#" id="forms">
+                        <div id="formdiv">
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                          </div>
+                          <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                          </div>
+                          <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Contact Number">
+                          </div>
+                          <div class="form-group">
+                            <textarea class="form-control" style="width: 100%; height: 200px; border-radius: 4px;"
+                              placeholder="Enter your message"></textarea>
+                          </div>
+                          <input type="submit" class="btn btn-primary" style="width:100%;">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="price-list m-4">
+              <img src="img/irish platinum-4bhk-cluster-plan-2150-sqft- floor plan-4 price list 2.jpg" width="100%"
+                alt="irish platinum price list">
+              <!-- <button type="submit">See Price Plans</button> -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pricePlansModal">
+                See Price Plans
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-6">
-        <div class="price-list m-4">
-          <img src="img/irish platinum-4bhk-cluster-plan-2150-sqft- floor plan-4 price list 2.jpg" width="100%" alt="irish platinum price list">
-          <button type="submit">See Price Plans</button>
-        </div>
-      </div>
-    </div>
-    </div>
     </div>
   </div>
 
@@ -658,7 +761,7 @@
     <div class="container">
       <div class="row justify-content-center d-flex flex-wrap">
         <div class="col-6">
-          <img width="500px" src="img/irish platinum img1.jpeg" alt="">
+          <img width="500px" src="img/irish platinum img1.jpeg" alt="Irish platinum">
         </div>
         <div class="col-6">
           <h2>Lorem ipsum dolor sit amet.</h2>
@@ -677,14 +780,14 @@
             suscipit.</p>
         </div>
         <div class="col-6">
-          <img width="500px" src="img/irish platinum img2.jpeg" alt="">
+          <img width="500px" src="img/irish platinum img2.jpeg" alt="Irish platinum">
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-6">
-          <img width="500px" src="img/irish platinum img3.jpeg" alt="">
+          <img width="500px" src="img/irish platinum img3.jpeg" alt="Irish platinum">
         </div>
         <div class="col-6">
           <h2>Lorem ipsum dolor sit amet.</h2>
@@ -703,7 +806,7 @@
             suscipit.</p>
         </div>
         <div class="col-6">
-          <img width="500px" src="img/irish platinum img4.jpeg" alt="">
+          <img width="500px" src="img/irish platinum img4.jpeg" alt="Irish platinum">
         </div>
       </div>
     </div>
@@ -961,18 +1064,68 @@
 
   <!-- Location Start here -->
 
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.8774435215178!2d77.47964521962959!3d28.573442689762746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5f80700362f%3A0x349f3469e7391a49!2sIrish%20Platinum!5e0!3m2!1sen!2sin!4v1719043474867!5m2!1sen!2sin"
-    width="60%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="container-fluid">
+  <div class="footer-map">
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- <h2 style="text-align: center;">Location Map</h2> -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+       <div class="location-map">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.8774435215178!2d77.47964521962959!3d28.573442689762746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5f80700362f%3A0x349f3469e7391a49!2sIrish%20Platinum!5e0!3m2!1sen!2sin!4v1719043474867!5m2!1sen!2sin"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="map-text">
+          <h4>Location Advantages:</h4>
+          <table>
+            <tr>
+              <td style="padding-right: 15px;"><img src="img/pointer.png" alt=""></td>
+              <td>2 minute drive away from proposed metro connectivity</td>
+            </tr>
+            <tr>
+              <td style="padding-right: 15px;"><img src="img/pointer.png" alt=""></td>
+              <td>10 minute drive away from Gaur Chowk Noida Extension</td>
+            </tr>
+            <tr>
+              <td style="padding-right: 15px;"><img src="img/pointer.png" alt=""></td>
+              <td>3 kms from Ghaziabad railway station</td>
+            </tr>
+            <tr>
+              <td style="padding-right: 15px;"><img src="img/pointer.png" alt=""></td>
+              <td>15 minute drive from Sec 52 metro station</td>
+            </tr>
+            <tr>
+              <td style="padding-right: 15px;"><img src="img/pointer.png" alt=""></td>
+              <td>Great connectivity to hospitals and Highway</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <!-- Location Start here -->
+  <!-- Location ends here -->
 
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h4>Conclusion:</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum nisi, necessitatibus, ipsam corporis dolorum distinctio nobis culpa nam facilis aliquid odio ipsum recusandae incidunt eaque sed! Culpa incidunt facere debitis dolorem impedit, voluptates unde quo fuga, assumenda eveniet ex. Provident, molestiae dignissimos maiores culpa optio esse cum sint! Laudantium, voluptas?</p>
+      </div>
+    </div>
+  </div>
   <!-- Footer start here -->
   <footer>
     <div class="container-fluid">
       <div class="footer-main">
-        <div class="container">
+        <div class="container" style="padding-bottom: 0% !important;">
           <div class="row">
             <div class="col-3">
               <h4 class="text-white">Address</h4>
@@ -1009,12 +1162,9 @@
               </form>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="footerbar">
-        <div class="row-fb py-3">
-          <div class="col-12 d-flex justify-content-center">
-            <p style="margin-bottom: 0px !important;">© 2024 Copyright Irish Platinum | All right reserved</p>
+          <div class="dislaimer">
+            <p style="text-align: center;"><strong>Disclaimer:</strong> This is not the official website. it belongs to authorised channel partner, and is used for information & marketing purposes only. The information contained in this brochure/website/presentation/communication is for general information purposes only. The information is provided by the Irish Platinum Towers project team. By using or accessing this website you agree with the disclaimer without any qualification or limitation. The viewer has not relied on this information for making any booking/purchase in any project of the company. Any reliance you place on such information is therefore strictly at your own risk.</p>
+            <p style="text-align: center;">© 2024 Copyright Irish Platinum | All right reserved</p> 
           </div>
         </div>
       </div>
@@ -1028,7 +1178,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 
