@@ -217,11 +217,15 @@ nav .nav-item {
   transform: scale(1.1);
 }
 
-.footer-list {
+.footer-list ul{
   list-style-type: none;
   text-indent: 0%;
   padding-left: 0px;
 
+}
+.footer-list a {
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .footer-main,
@@ -425,7 +429,7 @@ iframe{
 }
 
 
-* {
+/* * {
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: -moz-none;
@@ -439,8 +443,54 @@ p {
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
-}
+} */
 
 .ads{
   background-color: #B71C1C;
+}
+
+/* Gallery photos start here */
+
+#photos {
+  padding-top: 40px;
+  @media screen and (min-width: 991px) {
+    padding: 0px 30px 0 30px;
+  }
+}
+
+.img-wrapper {
+  position: relative;
+  margin-top: 15px;
+  img {
+    width: 100%;
+  }
+}
+
+#breadcrumb{
+  background-image: url('../img/irish\ platinum\ slider2.png');
+  background-blend-mode: overlay;
+  background-color: rgb(16, 41, 57, .9);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breadcrumb-text h1{
+  color: white;
+  text-align: center;
+}
+
+#amenities{
+  background-image: url("../img/irish\ platinum\ img7.jpg");
+}
+
+.amenities-box{
+  background-color: #B71C1C;
+  padding: 5px 10px 0px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.amenities-box h6{
+  color: white;
 }
