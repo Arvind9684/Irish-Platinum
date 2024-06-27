@@ -90,6 +90,21 @@ nav .nav-item {
   padding: 10px;
 }
 
+@media (max-width: 600px){
+.phone,
+.mail,
+.whatsapp{
+  padding: 0px;
+}
+}
+
+@media (max-width: 600px){
+  #topbar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
 .container {
   padding: 30px 30px;
 }
@@ -104,6 +119,12 @@ nav .nav-item {
   margin: 0% !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .row{
+    padding: 0px;
+  }
+}
+
 .skyblue {
   background-color: #E9EFF2;
 }
@@ -116,8 +137,17 @@ nav .nav-item {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 50px;
 }
+
+@media (max-width: 600px){
+  .featuresCall{
+    display: none;
+  }
+}
+
 .featuresCall .card{
  margin-right: 20px;
+ border-radius: 10px;
+
 }
 
 .top-features {
@@ -127,11 +157,35 @@ nav .nav-item {
   padding: 50px;
 }
 
+@media (max-width: 600px){
+  .top-features{
+    display: none;
+  }
+}
+
 .analytics {
   background-image: url("../img/irish\ platinum\ img7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
+}
+
+@media (max-width: 600px){
+  .analytics {
+    padding: 0px;
+    display: none;
+  }
+}
+
+.card-numbers{
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px #ddd;
+}
+
+@media (max-width: 600px){
+  .card-numbers{
+    padding: 20px;
+  }
 }
 
 .row-afterNumber {
@@ -145,10 +199,11 @@ nav .nav-item {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .features-top {
-  width: 250px;
+  width: 245px;
   height: auto;
   background: #fff;
   border-radius: 5px;
@@ -287,22 +342,18 @@ nav .nav-item {
 
 
 .gallery {
-  margin: 10px 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .gallery img{
-  width: 200px;
+  width: 222px;
   padding: 5px;
 }
 .gallery img:hover{
   transform: scale(1.1);
 }
 
-.price-list img{
-  filter: blur(4px);
-}
 .price-list button{
   background-color: #B71C1C;
   color: white;
@@ -314,6 +365,13 @@ nav .nav-item {
   right: 36%;
 }
 
+@media (max-width: 600px){
+  .price-list button{
+    bottom: 42%;
+    right: 18%;
+  }
+}
+
 .slider-content{
   background-color: #DCE3E7;
   font-family: jost;
@@ -321,10 +379,25 @@ nav .nav-item {
 
 .form-content{
   background-color: #fff;
-  padding: 40px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 2px #ddd;
 }
+
+@media only screen and (max-width: 600px) {
+  .form-content{
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .video-slider{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+
 #formdiv .btn {
   background-color: #B71C1C;
   color: #fff;
@@ -338,6 +411,7 @@ nav .nav-item {
   background-color: white;
   border-radius: 10px;
   padding: 20px;
+  box-shadow: 0px 0px 5px 2px #ddd;
 }
 .map-text li{
   list-style-type: none;
@@ -348,4 +422,25 @@ nav .nav-item {
 }
 iframe{
   border-radius: 15px;
+}
+
+
+* {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+p {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.ads{
+  background-color: #B71C1C;
 }

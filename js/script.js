@@ -31,3 +31,9 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(updateAcresCount, 100)
 
   });   
+
+
+  document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+ 
