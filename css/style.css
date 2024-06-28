@@ -354,6 +354,12 @@ nav .nav-item {
   width: 222px;
   padding: 5px;
 }
+
+@media (max-width: 600px){
+  .gallery img{
+    width: 100%;
+  }
+}
 .gallery img:hover{
   transform: scale(1.1);
 }
