@@ -260,6 +260,10 @@ nav .nav-item {
   justify-content: center;
 }
 
+video{
+  object-fit: cover;
+}
+
 /* iframe{
   border-radius: 20px;
   box-shadow: 0px 0px 5px 2px black;
@@ -390,7 +394,7 @@ nav .nav-item {
 .form-content{
   background-color: #fff;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0px 0px 5px 2px #ddd;
 }
 
@@ -510,3 +514,24 @@ p {
     font-weight: bold;
     font-family: jost;
   }
+
+  .pulse {
+    animation: pulse-animation 2s infinite;
+  }
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px #B71C1C;
+    }
+    100% {
+      box-shadow: 0 0 0 8px #e4B71C1C;
+    }
+  }
+
+.blink{
+		animation: blink 1s linear infinite;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
