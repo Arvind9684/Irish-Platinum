@@ -500,3 +500,13 @@ p {
 .amenities-box h6{
   color: white;
 }
+
+#enquiry-now{
+    background-color: #B71C1C;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: bold;
+    font-family: jost;
+  }
